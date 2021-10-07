@@ -15,7 +15,7 @@ header {
 
 h1 {
     font-family: 'Cinzel', serif;
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 200px;
      margin: 0 auto;
@@ -54,8 +54,9 @@ main h2 {
 main ul {
     font-size: 30px;
     margin-top: 100px;
-    margin-left: 40px;
+    margin-left: 90px;
     list-style: none;
+     
 }
 
 main ul li {
@@ -80,6 +81,7 @@ main ul li:nth-of-type(3)::after {
 main ul li:nth-of-type(4)::after {
     content: "-Only 4 SPOT AVAILABLE";
     color:red;
+    margin-left: 2px;
 }
 
 main ul li:nth-of-type(5)::after {
@@ -92,3 +94,10 @@ main ul li:nth-of-type(6)::after {
     color: green;
 }
 
+footer p {
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+    border-top: 1px solid #ccc;
+     font-family: 'Cinzel', serif;
+}
